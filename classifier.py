@@ -1,5 +1,13 @@
 #! /usr/bin/python3
+'''
+Script voor een Vision systeem GUI (raspberry pi en Pi camera) waarop
+de uitkomsten van OCR en object classification op worden weergeven.
+De object classification dataset kan uitgebreid worden met buttons op
+de GUI die foto's toevoegen aan directories met de gewenste naam.
 
+OCR wordt gedaan met tesseract en wordt ook weergeven op de GUI samen
+met de gemaakte foto en de voor OCR bewerkte foto.
+'''
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.optimizers import RMSprop
 from tensorflow.keras.preprocessing import image as IMAGE
