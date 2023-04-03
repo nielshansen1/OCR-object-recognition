@@ -1,15 +1,9 @@
 #! /usr/bin/python3
 
 ''' 
-Dit script geeft een preview weer van de aangesloten picamera. Tijdens
-deze preview kunnen foto's gemaakt worden die de naam 'focustest+nummer.jpg'
-krijgen. Het nummer wordt bepaald door de counter (standaard 0). Deze counter
-wordt per gemaakte foto met 1 verhoogd. 
-
-Ook zijn de camera instellingen shutter speed en resolution toegevoegd
-en aan te passen.
-
-Ten slotte zijn de OCR functionaliteiten ook toegevoegd met Tesseract.
+Dit script geeft GUI weer waarop verschillende functinaliteiten zijn gaangesloten.
+Er kunnen foto's gemaakt worden waarop OCR wordt toegepast. De uitkosmten hiervan
+worden daarna weergeven op de GUI.
 '''
 
 import time
